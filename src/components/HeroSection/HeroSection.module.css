@@ -11,7 +11,7 @@
 
 .right_column {
   flex: 2;
-  overflow: auto;
+  overflow: hidden;
 }
 
 

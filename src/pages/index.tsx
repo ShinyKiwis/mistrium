@@ -1,4 +1,4 @@
-import { HeroSection, Navbar } from '../components'
+import { Clients, Collections, HeroSection, Navbar } from '../components'
 import Head from 'next/head'
 import HomeStyle from '../styles/Home.module.css'
 
@@ -11,6 +11,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <HeroSection />
+      <Clients />
+      <Collections />
     </main>
   )
 }

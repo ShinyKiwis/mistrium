@@ -1,0 +1,39 @@
+.navbar { 
+  background-color: white;
+  padding: 1rem 10rem;
+  display: flex;
+  color: var(--primary-text-color);
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  user-select: none;
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav_container span:first-child {
+  margin-top: 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary-text-color);
+}
+
+.nav_container span {
+  cursor: pointer;
+}
+
+.nav_activities {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.nav_activities img {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
